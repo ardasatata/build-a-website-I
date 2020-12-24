@@ -1,0 +1,61 @@
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  margin: 0px;
+}
+
+.row {
+  display: flex;
+  height: 100vh; /* Should be removed. Only for demonstration */
+}
+
+/* Create two equal columns that sits next to each other */
+.column-left {
+    display: flex;
+    flex-direction: column;
+    flex: 60%;
+    justify-content: center;
+    background-color: black;
+    padding-left: 4em;
+}
+
+.column-right {
+  flex: 40%;
+}
+
+.text-primary{
+  color: #BDE3CE;
+}
+
+.text-white{
+  color: white;
+}
+
+.text-name{
+  font-size: 72px;
+  font-weight: bold;
+}
+
+.text-sub{
+  font-size: 36px;
+  font-weight: semibold;
+}
+
+.margin-bottom-small{
+  margin-bottom: 0.25em;
+}
+
+ul{
+  font-size: 18px;
+  list-style-type: none;
+  padding: 0;
+}
+
+li{
+  margin-bottom: 0.1em;
+  padding: 0.2em;
+}
+
+.list-container{
+  margin-top: 24px
+}
