@@ -52,10 +52,26 @@ ul{
 }
 
 li{
-  margin-bottom: 0.1em;
+  display: flex;
+  margin-bottom: 0.4em;
   padding: 0.2em;
+  align-items: center;
 }
 
 .list-container{
   margin-top: 24px
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  color: rgb(202, 202, 202);
+  text-decoration: none;
+}
+
+.icon{
+  margin-right: 0.5em;
 }
